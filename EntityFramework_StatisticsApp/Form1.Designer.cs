@@ -422,6 +422,7 @@
             // 
             // panel11
             // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(81)))), ((int)(((byte)(79)))));
             this.panel11.Controls.Add(this.label22);
             this.panel11.Controls.Add(this.label23);
             this.panel11.Location = new System.Drawing.Point(12, 297);
@@ -451,6 +452,7 @@
             // 
             // panel12
             // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(95)))), ((int)(((byte)(92)))));
             this.panel12.Controls.Add(this.label24);
             this.panel12.Controls.Add(this.label25);
             this.panel12.Location = new System.Drawing.Point(246, 297);
@@ -480,6 +482,7 @@
             // 
             // panel13
             // 
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(102)))));
             this.panel13.Controls.Add(this.label26);
             this.panel13.Controls.Add(this.label27);
             this.panel13.Location = new System.Drawing.Point(482, 297);
@@ -509,6 +512,7 @@
             // 
             // panel14
             // 
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(123)))), ((int)(((byte)(160)))));
             this.panel14.Controls.Add(this.label28);
             this.panel14.Controls.Add(this.label21);
             this.panel14.Location = new System.Drawing.Point(719, 297);
@@ -528,6 +532,7 @@
             // 
             // panel15
             // 
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(193)))), ((int)(((byte)(179)))));
             this.panel15.Controls.Add(this.label29);
             this.panel15.Controls.Add(this.label30);
             this.panel15.Location = new System.Drawing.Point(958, 297);
