@@ -42,7 +42,7 @@
             this.lblOrderCount = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblTotalStockCount = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
@@ -123,11 +123,11 @@
             // lblCategoryCount
             // 
             this.lblCategoryCount.AutoSize = true;
-            this.lblCategoryCount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblCategoryCount.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblCategoryCount.ForeColor = System.Drawing.Color.White;
             this.lblCategoryCount.Location = new System.Drawing.Point(78, 64);
             this.lblCategoryCount.Name = "lblCategoryCount";
-            this.lblCategoryCount.Size = new System.Drawing.Size(61, 24);
+            this.lblCategoryCount.Size = new System.Drawing.Size(77, 31);
             this.lblCategoryCount.TabIndex = 0;
             this.lblCategoryCount.Text = "label1";
             // 
@@ -166,11 +166,11 @@
             // lblProductCount
             // 
             this.lblProductCount.AutoSize = true;
-            this.lblProductCount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblProductCount.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblProductCount.ForeColor = System.Drawing.Color.White;
             this.lblProductCount.Location = new System.Drawing.Point(78, 64);
             this.lblProductCount.Name = "lblProductCount";
-            this.lblProductCount.Size = new System.Drawing.Size(61, 24);
+            this.lblProductCount.Size = new System.Drawing.Size(77, 31);
             this.lblProductCount.TabIndex = 0;
             this.lblProductCount.Text = "label4";
             // 
@@ -198,11 +198,11 @@
             // lblCustomerCount
             // 
             this.lblCustomerCount.AutoSize = true;
-            this.lblCustomerCount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblCustomerCount.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblCustomerCount.ForeColor = System.Drawing.Color.White;
             this.lblCustomerCount.Location = new System.Drawing.Point(78, 64);
             this.lblCustomerCount.Name = "lblCustomerCount";
-            this.lblCustomerCount.Size = new System.Drawing.Size(61, 24);
+            this.lblCustomerCount.Size = new System.Drawing.Size(77, 31);
             this.lblCustomerCount.TabIndex = 0;
             this.lblCustomerCount.Text = "label6";
             // 
@@ -230,11 +230,11 @@
             // lblOrderCount
             // 
             this.lblOrderCount.AutoSize = true;
-            this.lblOrderCount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblOrderCount.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblOrderCount.ForeColor = System.Drawing.Color.White;
             this.lblOrderCount.Location = new System.Drawing.Point(78, 64);
             this.lblOrderCount.Name = "lblOrderCount";
-            this.lblOrderCount.Size = new System.Drawing.Size(61, 24);
+            this.lblOrderCount.Size = new System.Drawing.Size(77, 31);
             this.lblOrderCount.TabIndex = 0;
             this.lblOrderCount.Text = "label8";
             // 
@@ -242,7 +242,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(223)))), ((int)(((byte)(100)))));
             this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.label10);
+            this.panel5.Controls.Add(this.lblTotalStockCount);
             this.panel5.Location = new System.Drawing.Point(958, 12);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(219, 126);
@@ -255,29 +255,29 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(54, 17);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(110, 17);
+            this.label9.Size = new System.Drawing.Size(122, 17);
             this.label9.TabIndex = 1;
-            this.label9.Text = "Category Count";
+            this.label9.Text = "Total Stock Count";
             // 
-            // label10
+            // lblTotalStockCount
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(78, 64);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 24);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "label10";
+            this.lblTotalStockCount.AutoSize = true;
+            this.lblTotalStockCount.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTotalStockCount.ForeColor = System.Drawing.Color.White;
+            this.lblTotalStockCount.Location = new System.Drawing.Point(78, 64);
+            this.lblTotalStockCount.Name = "lblTotalStockCount";
+            this.lblTotalStockCount.Size = new System.Drawing.Size(90, 31);
+            this.lblTotalStockCount.TabIndex = 0;
+            this.lblTotalStockCount.Text = "label10";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(78, 64);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(71, 24);
+            this.label11.Size = new System.Drawing.Size(90, 31);
             this.label11.TabIndex = 0;
             this.label11.Text = "label11";
             // 
@@ -305,11 +305,11 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label13.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(78, 64);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(71, 24);
+            this.label13.Size = new System.Drawing.Size(90, 31);
             this.label13.TabIndex = 0;
             this.label13.Text = "label13";
             // 
@@ -337,11 +337,11 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label15.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(78, 64);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(61, 24);
+            this.label15.Size = new System.Drawing.Size(77, 31);
             this.label15.TabIndex = 0;
             this.label15.Text = "label4";
             // 
@@ -369,11 +369,11 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Location = new System.Drawing.Point(78, 64);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(61, 24);
+            this.label17.Size = new System.Drawing.Size(77, 31);
             this.label17.TabIndex = 0;
             this.label17.Text = "label6";
             // 
@@ -422,22 +422,22 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label20.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label20.ForeColor = System.Drawing.Color.White;
             this.label20.Location = new System.Drawing.Point(78, 64);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(71, 24);
+            this.label20.Size = new System.Drawing.Size(90, 31);
             this.label20.TabIndex = 0;
             this.label20.Text = "label10";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label21.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(78, 64);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(71, 24);
+            this.label21.Size = new System.Drawing.Size(90, 31);
             this.label21.TabIndex = 0;
             this.label21.Text = "label21";
             // 
@@ -465,11 +465,11 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label23.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label23.ForeColor = System.Drawing.Color.White;
             this.label23.Location = new System.Drawing.Point(78, 64);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(71, 24);
+            this.label23.Size = new System.Drawing.Size(90, 31);
             this.label23.TabIndex = 0;
             this.label23.Text = "label23";
             // 
@@ -497,11 +497,11 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label25.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label25.ForeColor = System.Drawing.Color.White;
             this.label25.Location = new System.Drawing.Point(78, 64);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(61, 24);
+            this.label25.Size = new System.Drawing.Size(77, 31);
             this.label25.TabIndex = 0;
             this.label25.Text = "label4";
             // 
@@ -529,11 +529,11 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label27.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label27.ForeColor = System.Drawing.Color.White;
             this.label27.Location = new System.Drawing.Point(78, 64);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(61, 24);
+            this.label27.Size = new System.Drawing.Size(77, 31);
             this.label27.TabIndex = 0;
             this.label27.Text = "label6";
             // 
@@ -582,22 +582,22 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label30.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label30.ForeColor = System.Drawing.Color.White;
             this.label30.Location = new System.Drawing.Point(78, 64);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(71, 24);
+            this.label30.Size = new System.Drawing.Size(90, 31);
             this.label30.TabIndex = 0;
             this.label30.Text = "label10";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label31.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label31.ForeColor = System.Drawing.Color.White;
             this.label31.Location = new System.Drawing.Point(78, 64);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(71, 24);
+            this.label31.Size = new System.Drawing.Size(90, 31);
             this.label31.TabIndex = 0;
             this.label31.Text = "label31";
             // 
@@ -625,11 +625,11 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label33.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label33.ForeColor = System.Drawing.Color.White;
             this.label33.Location = new System.Drawing.Point(78, 64);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(71, 24);
+            this.label33.Size = new System.Drawing.Size(90, 31);
             this.label33.TabIndex = 0;
             this.label33.Text = "label33";
             // 
@@ -657,11 +657,11 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label35.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label35.ForeColor = System.Drawing.Color.White;
             this.label35.Location = new System.Drawing.Point(78, 64);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(61, 24);
+            this.label35.Size = new System.Drawing.Size(77, 31);
             this.label35.TabIndex = 0;
             this.label35.Text = "label4";
             // 
@@ -689,11 +689,11 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label37.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label37.ForeColor = System.Drawing.Color.White;
             this.label37.Location = new System.Drawing.Point(78, 64);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(61, 24);
+            this.label37.Size = new System.Drawing.Size(77, 31);
             this.label37.TabIndex = 0;
             this.label37.Text = "label6";
             // 
@@ -742,11 +742,11 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label40.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label40.ForeColor = System.Drawing.Color.White;
             this.label40.Location = new System.Drawing.Point(78, 64);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(71, 24);
+            this.label40.Size = new System.Drawing.Size(90, 31);
             this.label40.TabIndex = 0;
             this.label40.Text = "label10";
             // 
@@ -838,7 +838,7 @@
         private System.Windows.Forms.Label lblOrderCount;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblTotalStockCount;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label12;

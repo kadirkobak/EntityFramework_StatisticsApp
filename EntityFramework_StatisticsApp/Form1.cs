@@ -34,6 +34,8 @@ namespace EntityFramework_StatisticsApp
             int orderCount = db.TblOrder.Count();
             lblOrderCount.Text = orderCount.ToString();
 
+            var totalProductStockCount = db.TblProduct.Sum(x => x.ProductStock);
+            lblTotalStockCount.Text = totalProductStockCount.ToString();
         }
     }
 }
