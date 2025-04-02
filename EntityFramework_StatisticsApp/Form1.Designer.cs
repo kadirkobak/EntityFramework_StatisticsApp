@@ -46,10 +46,10 @@
             this.label11 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lblAverageProductPrice = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lblTotalFruitsStock = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -285,7 +285,7 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(89)))), ((int)(((byte)(140)))));
             this.panel6.Controls.Add(this.label12);
-            this.panel6.Controls.Add(this.label13);
+            this.panel6.Controls.Add(this.lblAverageProductPrice);
             this.panel6.Location = new System.Drawing.Point(12, 153);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(219, 126);
@@ -296,28 +296,28 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(54, 17);
+            this.label12.Location = new System.Drawing.Point(36, 17);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(110, 17);
+            this.label12.Size = new System.Drawing.Size(154, 17);
             this.label12.TabIndex = 1;
-            this.label12.Text = "Category Count";
+            this.label12.Text = "Averaga Product Price";
             // 
-            // label13
+            // lblAverageProductPrice
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(78, 64);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(90, 31);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "label13";
+            this.lblAverageProductPrice.AutoSize = true;
+            this.lblAverageProductPrice.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAverageProductPrice.ForeColor = System.Drawing.Color.White;
+            this.lblAverageProductPrice.Location = new System.Drawing.Point(33, 54);
+            this.lblAverageProductPrice.Name = "lblAverageProductPrice";
+            this.lblAverageProductPrice.Size = new System.Drawing.Size(90, 31);
+            this.lblAverageProductPrice.TabIndex = 0;
+            this.lblAverageProductPrice.Text = "label13";
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.RosyBrown;
             this.panel7.Controls.Add(this.label14);
-            this.panel7.Controls.Add(this.label15);
+            this.panel7.Controls.Add(this.lblTotalFruitsStock);
             this.panel7.Location = new System.Drawing.Point(246, 153);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(219, 126);
@@ -330,20 +330,20 @@
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(54, 17);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(102, 17);
+            this.label14.Size = new System.Drawing.Size(120, 17);
             this.label14.TabIndex = 1;
-            this.label14.Text = "Product Count";
+            this.label14.Text = "Total Fruits Stock";
             // 
-            // label15
+            // lblTotalFruitsStock
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(78, 64);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(77, 31);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "label4";
+            this.lblTotalFruitsStock.AutoSize = true;
+            this.lblTotalFruitsStock.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTotalFruitsStock.ForeColor = System.Drawing.Color.White;
+            this.lblTotalFruitsStock.Location = new System.Drawing.Point(78, 64);
+            this.lblTotalFruitsStock.Name = "lblTotalFruitsStock";
+            this.lblTotalFruitsStock.Size = new System.Drawing.Size(77, 31);
+            this.lblTotalFruitsStock.TabIndex = 0;
+            this.lblTotalFruitsStock.Text = "label4";
             // 
             // panel8
             // 
@@ -842,10 +842,10 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblAverageProductPrice;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lblTotalFruitsStock;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
