@@ -49,6 +49,8 @@ namespace EntityFramework_StatisticsApp
             //Total fruits stock statistics
             var totalFruitsStock = db.TblProduct.Where(x => x.CategoryId == 4).Sum(x => x.ProductStock);
             lblTotalFruitsStock.Text = totalFruitsStock.ToString();
+
+            //
         }
     }
 }
