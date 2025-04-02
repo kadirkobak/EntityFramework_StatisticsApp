@@ -50,7 +50,7 @@ namespace EntityFramework_StatisticsApp
             var totalFruitsStock = db.TblProduct.Where(x => x.CategoryId == 4).Sum(x => x.ProductStock);
             lblTotalFruitsStock.Text = totalFruitsStock.ToString();
 
-            //
+            
         }
     }
 }
