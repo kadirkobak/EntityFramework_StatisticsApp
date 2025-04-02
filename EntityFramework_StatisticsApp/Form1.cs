@@ -44,7 +44,7 @@ namespace EntityFramework_StatisticsApp
 
             // Average product price statistics
             var averageProductPrice = db.TblProduct.Average(x => x.ProductPrice);
-            lblAverageProductPrice.Text = averageProductPrice.ToString()+"$";
+            lblAverageProductPrice.Text = averageProductPrice.ToString();
 
             //Total fruits stock statistics
             var totalFruitsStock = db.TblProduct.Where(x => x.CategoryId == 4).Sum(x => x.ProductStock);
