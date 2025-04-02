@@ -33,13 +33,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblProductCount = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblCustomerCount = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblOrderCount = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -146,7 +146,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.lblProductCount);
             this.panel2.Location = new System.Drawing.Point(246, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(219, 126);
@@ -163,22 +163,22 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Product Count";
             // 
-            // label4
+            // lblProductCount
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(78, 64);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 24);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "label4";
+            this.lblProductCount.AutoSize = true;
+            this.lblProductCount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblProductCount.ForeColor = System.Drawing.Color.White;
+            this.lblProductCount.Location = new System.Drawing.Point(78, 64);
+            this.lblProductCount.Name = "lblProductCount";
+            this.lblProductCount.Size = new System.Drawing.Size(61, 24);
+            this.lblProductCount.TabIndex = 0;
+            this.lblProductCount.Text = "label4";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(135)))), ((int)(((byte)(103)))));
             this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.lblCustomerCount);
             this.panel3.Location = new System.Drawing.Point(482, 12);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(219, 126);
@@ -195,22 +195,22 @@
             this.label5.TabIndex = 1;
             this.label5.Text = "Customer Count";
             // 
-            // label6
+            // lblCustomerCount
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(78, 64);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 24);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "label6";
+            this.lblCustomerCount.AutoSize = true;
+            this.lblCustomerCount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblCustomerCount.ForeColor = System.Drawing.Color.White;
+            this.lblCustomerCount.Location = new System.Drawing.Point(78, 64);
+            this.lblCustomerCount.Name = "lblCustomerCount";
+            this.lblCustomerCount.Size = new System.Drawing.Size(61, 24);
+            this.lblCustomerCount.TabIndex = 0;
+            this.lblCustomerCount.Text = "label6";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(201)))), ((int)(((byte)(94)))));
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.lblOrderCount);
             this.panel4.Location = new System.Drawing.Point(719, 12);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(219, 126);
@@ -227,16 +227,16 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Order Count";
             // 
-            // label8
+            // lblOrderCount
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(78, 64);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 24);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "label8";
+            this.lblOrderCount.AutoSize = true;
+            this.lblOrderCount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblOrderCount.ForeColor = System.Drawing.Color.White;
+            this.lblOrderCount.Location = new System.Drawing.Point(78, 64);
+            this.lblOrderCount.Name = "lblOrderCount";
+            this.lblOrderCount.Size = new System.Drawing.Size(61, 24);
+            this.lblOrderCount.TabIndex = 0;
+            this.lblOrderCount.Text = "label8";
             // 
             // panel5
             // 
@@ -829,13 +829,13 @@
         private System.Windows.Forms.Label lblCategoryCount;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblProductCount;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblCustomerCount;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblOrderCount;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;

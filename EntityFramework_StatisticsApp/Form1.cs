@@ -22,6 +22,17 @@ namespace EntityFramework_StatisticsApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            int categoryCount = db.TblCategory.Count();
+            lblCategoryCount.Text = categoryCount.ToString();
+
+            int productCount = db.TblProduct.Count();
+            lblProductCount.Text = productCount.ToString();
+
+            int customerCount = db.TblCustomer.Count();
+            lblCustomerCount.Text = customerCount.ToString();
+
+            int orderCount = db.TblOrder.Count();
+            lblOrderCount.Text = orderCount.ToString();
 
         }
     }
