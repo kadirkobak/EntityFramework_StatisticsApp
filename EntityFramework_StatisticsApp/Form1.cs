@@ -59,6 +59,11 @@ namespace EntityFramework_StatisticsApp
             // Stock < 100 products statistics
             var productCountByStockCountSmallerThen100 = db.TblProduct.Where(x => x.ProductStock < 100).Count();
             lblProductSmallerThen100.Text = productCountByStockCountSmallerThen100.ToString();
+
+            // Total Fruit Stock Statistics
+            var totalFruitStock = db.TblProduct.Where(x => x.CategoryId == 4 
+            && x.ProductStatus==true).Sum(y => y.ProductStock);
+            lblActiveFruitStock.Text = totalFruitStock.ToString();
         }
     }
 }
