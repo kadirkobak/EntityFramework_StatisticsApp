@@ -64,6 +64,10 @@ namespace EntityFramework_StatisticsApp
             var totalFruitStock = db.TblProduct.Where(x => x.CategoryId == 4 
             && x.ProductStatus==true).Sum(y => y.ProductStock);
             lblActiveFruitStock.Text = totalFruitStock.ToString();
+
+            // Country based orders
+            var customerId = db.TblCustomer.Where(x => x.CustomerCountry == "Türkiye").Select(y=> y.CustomerId).ToList();
+            lblCountryOrders.Text = customerId.ToString();
         }
     }
 }

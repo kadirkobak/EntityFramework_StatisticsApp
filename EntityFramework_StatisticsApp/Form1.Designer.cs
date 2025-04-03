@@ -61,7 +61,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.lblCountryOrders = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -445,7 +445,7 @@
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(81)))), ((int)(((byte)(79)))));
             this.panel11.Controls.Add(this.label22);
-            this.panel11.Controls.Add(this.label23);
+            this.panel11.Controls.Add(this.lblCountryOrders);
             this.panel11.Location = new System.Drawing.Point(12, 297);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(219, 126);
@@ -456,22 +456,22 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(54, 17);
+            this.label22.Location = new System.Drawing.Point(12, 17);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(110, 17);
+            this.label22.Size = new System.Drawing.Size(194, 17);
             this.label22.TabIndex = 1;
-            this.label22.Text = "Category Count";
+            this.label22.Text = "Country Orders from Türkiye";
             // 
-            // label23
+            // lblCountryOrders
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(78, 64);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 31);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "label23";
+            this.lblCountryOrders.AutoSize = true;
+            this.lblCountryOrders.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblCountryOrders.ForeColor = System.Drawing.Color.White;
+            this.lblCountryOrders.Location = new System.Drawing.Point(78, 64);
+            this.lblCountryOrders.Name = "lblCountryOrders";
+            this.lblCountryOrders.Size = new System.Drawing.Size(90, 31);
+            this.lblCountryOrders.TabIndex = 0;
+            this.lblCountryOrders.Text = "label23";
             // 
             // panel12
             // 
@@ -857,7 +857,7 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lblCountryOrders;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
