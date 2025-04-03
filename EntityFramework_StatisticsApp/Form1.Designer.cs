@@ -57,7 +57,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblActiveFruitStock = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label22 = new System.Windows.Forms.Label();
@@ -402,7 +402,7 @@
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(140)))), ((int)(((byte)(66)))));
             this.panel10.Controls.Add(this.label19);
-            this.panel10.Controls.Add(this.label20);
+            this.panel10.Controls.Add(this.lblActiveFruitStock);
             this.panel10.Location = new System.Drawing.Point(958, 153);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(219, 126);
@@ -415,20 +415,20 @@
             this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(54, 17);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(110, 17);
+            this.label19.Size = new System.Drawing.Size(121, 17);
             this.label19.TabIndex = 1;
-            this.label19.Text = "Category Count";
+            this.label19.Text = "Active Fruit Stock";
             // 
-            // label20
+            // lblActiveFruitStock
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(78, 64);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(90, 31);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "label10";
+            this.lblActiveFruitStock.AutoSize = true;
+            this.lblActiveFruitStock.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblActiveFruitStock.ForeColor = System.Drawing.Color.White;
+            this.lblActiveFruitStock.Location = new System.Drawing.Point(78, 64);
+            this.lblActiveFruitStock.Name = "lblActiveFruitStock";
+            this.lblActiveFruitStock.Size = new System.Drawing.Size(90, 31);
+            this.lblActiveFruitStock.TabIndex = 0;
+            this.lblActiveFruitStock.Text = "label10";
             // 
             // label21
             // 
@@ -853,7 +853,7 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label lblActiveFruitStock;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label22;
