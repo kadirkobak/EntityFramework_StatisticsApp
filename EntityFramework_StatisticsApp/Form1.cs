@@ -50,7 +50,12 @@ namespace EntityFramework_StatisticsApp
             var totalFruitsStock = db.TblProduct.Where(x => x.CategoryId == 4).Sum(x => x.ProductStock);
             lblTotalFruitsStock.Text = totalFruitsStock.ToString();
 
-            
+            // Headphones product turnover statistics
+            var totalPriceByHeadphonesStock = db.TblProduct.Where(x => x.ProductName == "Kulaklık").Select(y => y.ProductStock).FirstOrDefault();
+            var totalPriceByHeadphonesUnitPrice = db.TblProduct.Where(x => x.ProductName == "Kulaklık").Select(y => y.ProductPrice).FirstOrDefault();
+            var totalPriceByHeadphones = totalPriceByHeadphonesStock * totalPriceByHeadphonesUnitPrice;  
+            lblHeadphonesTurnover.Text = totalPriceByHeadphones.ToString();
+
         }
     }
 }
