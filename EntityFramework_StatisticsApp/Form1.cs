@@ -56,6 +56,9 @@ namespace EntityFramework_StatisticsApp
             var totalPriceByHeadphones = totalPriceByHeadphonesStock * totalPriceByHeadphonesUnitPrice;  
             lblHeadphonesTurnover.Text = totalPriceByHeadphones.ToString();
 
+            // Stock < 100 products statistics
+            var productCountByStockCountSmallerThen100 = db.TblProduct.Where(x => x.ProductStock < 100).Count();
+            lblProductSmallerThen100.Text = productCountByStockCountSmallerThen100.ToString();
         }
     }
 }
