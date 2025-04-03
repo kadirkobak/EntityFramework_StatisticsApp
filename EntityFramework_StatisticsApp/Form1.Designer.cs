@@ -43,7 +43,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.lblTotalStockCount = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblProductSmallerThen100 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.lblAverageProductPrice = new System.Windows.Forms.Label();
@@ -270,16 +270,16 @@
             this.lblTotalStockCount.TabIndex = 0;
             this.lblTotalStockCount.Text = "label10";
             // 
-            // label11
+            // lblProductSmallerThen100
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(78, 64);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(90, 31);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "label11";
+            this.lblProductSmallerThen100.AutoSize = true;
+            this.lblProductSmallerThen100.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblProductSmallerThen100.ForeColor = System.Drawing.Color.White;
+            this.lblProductSmallerThen100.Location = new System.Drawing.Point(78, 64);
+            this.lblProductSmallerThen100.Name = "lblProductSmallerThen100";
+            this.lblProductSmallerThen100.Size = new System.Drawing.Size(90, 31);
+            this.lblProductSmallerThen100.TabIndex = 0;
+            this.lblProductSmallerThen100.Text = "label11";
             // 
             // panel6
             // 
@@ -381,7 +381,7 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(175)))), ((int)(((byte)(88)))));
             this.panel9.Controls.Add(this.label18);
-            this.panel9.Controls.Add(this.label11);
+            this.panel9.Controls.Add(this.lblProductSmallerThen100);
             this.panel9.Location = new System.Drawing.Point(719, 153);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(219, 126);
@@ -394,9 +394,9 @@
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(54, 17);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(89, 17);
+            this.label18.Size = new System.Drawing.Size(86, 17);
             this.label18.TabIndex = 1;
-            this.label18.Text = "Order Count";
+            this.label18.Text = "Stock < 100";
             // 
             // panel10
             // 
@@ -839,7 +839,7 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblTotalStockCount;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblProductSmallerThen100;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label lblAverageProductPrice;
